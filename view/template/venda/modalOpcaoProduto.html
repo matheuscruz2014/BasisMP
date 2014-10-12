@@ -1,0 +1,12 @@
+    <div id="modal_opcao_produto" class="alert alert-success" style="position: fixed; z-index: 9999; display:none;">
+        <div class="col-lg-12">
+            <h4><strong>Nome Produto:</strong> {{produto.nome}}</h4>
+        </div>
+        <div class="col-mid-12 form-group">
+            <span>Quantidade</span>
+            <input type="number" id="quantidade_produto" ng-model="quantidade_produto" class="form-control"/>
+        </div>
+            <button ng-click="fncAdicionarCarrinho($event)" class="btn btn-success">OK</button>
+            <a href="#/venda" class="btn btn-success">OK ir para carrinho</a>
+            <button ng-click="fncCancelaAdcProduto($event)" class="btn btn-danger">Cancelar</button>
+    </div>

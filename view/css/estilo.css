@@ -1,0 +1,40 @@
+.mensagem{
+    width: auto;
+    background: #FFF;
+    position: relative;
+    float:right;
+    margin-left: 2px;
+    z-index: 99;
+}
+.fechar-mensagem{
+    float: right;
+    font-size: 32px;
+    margin-top: -43px;
+    cursor: pointer;
+}
+.mensagem-header{
+    padding: 4px;
+    background: #DDD;
+    border-radius: 15px 15px 0 0;
+}
+.mensagem-body{
+    padding: 7px;
+}
+.receive-mensagens{
+    height:150px;
+    overflow-y: auto;
+}
+.conteiner-mensagens{
+    bottom: 0;;
+    position: fixed;
+}
+.mensagem_de{
+    background-color: #c1e2b3;
+    padding: 3px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    list-style-type: none;
+}
